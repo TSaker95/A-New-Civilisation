@@ -43,6 +43,21 @@ a { color: red;}
     text-align: center;
 }
     
+#heading-4{
+  background-color: rgb(255, 0, 0);
+  font-size: 1px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-variant-caps: all-petite-caps;
+  border-width: 5px;   
+  border-color: black;   
+  border-style: solid;
+  
+}
+
+
+
+
 img { 
     height: 45%;
     width: 45%;
@@ -125,6 +140,14 @@ margin-left: auto;
 margin-right: auto;
 width:50%;
 
+
 }
 
+
+#text1 {
+  margin-left: auto; 
+margin-right: auto;
+width:50%;
+
+}
 
