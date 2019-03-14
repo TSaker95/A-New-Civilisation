@@ -21,7 +21,7 @@ a {
   text-align: center;
   color: rgb(0, 0, 0);
   font-variant-caps: all-petite-caps font-family: sans-serif;
-  font-style: italic;
+  font-style: bold;
   border-width: 5px;
   border-color: black;
   border-style: solid;
@@ -106,8 +106,8 @@ a {
 /* Change the color of links on hover */
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: rgb(255, 255, 255);
+  color: rgb(44, 43, 43);
 }
 
 /* Add a color to the active/current link */
@@ -180,10 +180,6 @@ a:active {
   width: 5%;
 }
 
-
-
-
-
 #aside {
   border: 2px solid rgb(0, 0, 0);
   width: 900px;
@@ -191,16 +187,63 @@ a:active {
   margin-right: 0em;
   padding: 10px 10px 10px 30px;
   box-sizing: border-box;
-  }
+}
 
-  #table1 {
- position: relative;
- top: -65px;
- left: 800px;
+#table1 {
+  position: relative;
+  top: -65px;
+  left: 800px;
+}
 
-  }
+.image-with-caption {
+  position: relative;
+}
 
+.image-with-caption img {
+  width: 100%;
+}
 
-  
-   
-  
+.image-with-caption div {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.image-with-caption p {
+  /* display: relative; */
+  margin: 0 auto;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  margin-bottom: 2rem;
+  border: 2px solid orange;
+}
+
+nav a {
+  display: block;
+  padding: 0.5rem;
+  background: lightblue;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav .products {
+  background-color: lightgreen;
+}
+
+nav .contact {
+  background-color: lightcoral;
+}
