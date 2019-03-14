@@ -274,15 +274,15 @@ nav .contact {
   background-color: #cccccc;
   background-repeat: repeat;
   background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;  */
- }
+  /* background-repeat: no-repeat; Do not repeat the image */
+  /* background-size: cover;  */
+ /* } */
 
-  #headbackground {
+  /* #headbackground {
   background-image: url("grey2.png");
   background-color: #cccccc;
   background-repeat: repeat;
   background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /*
- }
+  /* background-repeat: no-repeat; Do not repeat the image */
+  /* background-size: cover; /* */
+ /* }
