@@ -62,8 +62,19 @@ a {
   width: 45%;
 }
 
+
+.imgs5 {
+  height: 50%;
+  width: 50%;
+  border-width: 15px;
+  border-color: black;
+  border-style: solid;
+}
+
+
 #Tank {
   display: flex;
+  align-items: flex-start;
 }
 
 .center, img {
@@ -247,3 +258,4 @@ nav .products {
 nav .contact {
   background-color: lightcoral;
 }
+
