@@ -101,25 +101,52 @@ a {
   border-bottom: 0px;
   border-color: black;
   border-style: solid;
-  
+   
 }
 
 /* Style the links inside the navigation bar */
 
 .topnav a {
+ 
+
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 50px 10px 50px;
   text-decoration: none;
-  font-size: 17px;
+   font-size: 17px;
+  background-color: #333;
+  border-left: 2px;
+  border-right: 2px;
+  border-top: 0px;
+  border-bottom: 0px; 
+  border-color: black;
+  border-style: solid;
+  background-image: url("darkgrey.png");
+  box-sizing: border-box;
+ 
+  
+  
+  
 }
+
+
 
 /* Change the color of links on hover */
 
 .topnav a:hover {
   background-color: rgb(255, 255, 255);
-  color: rgb(44, 43, 43);
+  color: rgb(253, 93, 0);
+  border-left: 2px;
+  border-right: 2px;
+  border-top: 2px;
+  border-bottom: 2px; 
+  border-color: rgb(255, 0, 0);
+  border-style: solid;
+  text-decoration: none;
+   font-size: 18px;
 }
 
 /* Add a color to the active/current link */
@@ -141,12 +168,25 @@ p em {
 
 #footer {
   font-size: 25px;
+  font-style: italic;
   color: beige;
   background-color: #333;
+
   border-width: 5px;
   border-color: black;
   border-style: solid;
   margin-bottom: 0%;
+  background-image: url("darkgrey.png");
+  display: grid;
+  grid-template-columns: [sidebar] 0.5fr
+  [main-start] 1fr
+  [main-end];
+  /* grid-template-columns: repeat(3, minmax(200px, auto)); */
+  /* grid-template-rows: repeat (3, 200px); */
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  
+  
 }
 
 .centertopnav {
@@ -189,7 +229,13 @@ a:active {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 5%;
+  width: 8%;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 3px;
+  border-right: 3px;
+  border-color: black;
+  border-style: solid;
 }
 
 #aside {
@@ -269,20 +315,40 @@ nav .contact {
   background-size: cover; 
  }
 
- /* .pagebackground {
-  background-image: url("white.png");
+ .pagebackground {
+  background-image: url("lightgrey.png");
   background-color: #cccccc;
   background-repeat: repeat;
-  background-position: center; /* Center the image */
-  /* background-repeat: no-repeat; Do not repeat the image */
-  /* background-size: cover;  */
- /* } */
+  background-position: center;  
+   background-repeat: no-repeat;
+   background-size: cover; 
+  } 
 
   /* #headbackground {
   background-image: url("grey2.png");
   background-color: #cccccc;
   background-repeat: repeat;
-  background-position: center; /* Center the image */
-  /* background-repeat: no-repeat; Do not repeat the image */
-  /* background-size: cover; /* */
- /* }
+  background-position: center;  
+   background-repeat: no-repeat;  
+   background-size: cover;  */
+  } 
+
+
+ <style>
+  .parallax {
+    /* The image used */
+    background-image: url("red.png");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ </style>
+  
+  /* <!-- Container element --> */
+ 
