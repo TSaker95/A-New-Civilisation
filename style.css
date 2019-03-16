@@ -14,8 +14,17 @@ a {
   color: red;
 }
 
+.box_textshadow {
+  text-shadow: 2px 2px 2px  rgba(255, 255, 255, 0.699); /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+}
+
+.box_textshadow1 {
+  text-shadow: 2px 2px 2px  rgba(17, 0, 248, 0.781); /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+}
+
+
 #my-site {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(243, 6, 6);
   font-size: 100px;
   margin-top: 0%;
   text-align: center;
@@ -25,6 +34,12 @@ a {
   border-width: 5px;
   border-color: black;
   border-style: solid;
+  background-image: url(".png");
+
+  background-repeat: repeat;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
 
 #heading-2 {
@@ -41,9 +56,19 @@ a {
 #heading-3 {
   background-clip: border-box;
   background-color: black;
-  color: green;
-  font-variant-caps: all-petite-caps;
+  color: rgba(255, 255, 255, 0.87);
+  font-stretch: auto;
+  font-variant-caps: bold;
   text-align: center;
+  border-width: 5px;
+  border-color: rgb(48, 47, 47) grey;
+  border-style: double;
+  padding: 5px 5px 5px 5px;
+  background-image: url("black.png");
+  box-sizing: border-box;
+  object-fit: stretch;
+  width: auto;
+  height: auto;
 }
 
 #heading-4 {
@@ -90,6 +115,12 @@ a {
   border-style: solid;
 }
 
+.border2 {
+  border-width: 15px;
+  border-color: black;
+  border-style: solid;
+ }
+
 /* Add a black background color to the top navigation */
 
 .topnav {
@@ -101,6 +132,14 @@ a {
   border-bottom: 0px;
   border-color: black;
   border-style: solid;
+  object-fit: center;
+  width: auto;
+  height: auto;
+  background-image: url("grey1.png");
+  box-sizing: border-box;
+  object-fit: stretch;
+  width: auto;
+  height: auto;
    
 }
 
@@ -108,7 +147,7 @@ a {
 
 .topnav a {
  
-
+  display: grid;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   float: left;
@@ -120,13 +159,15 @@ a {
   background-color: #333;
   border-left: 2px;
   border-right: 2px;
-  border-top: 0px;
-  border-bottom: 0px; 
+  border-top: 2px;
+  border-bottom: 2px; 
   border-color: black;
   border-style: solid;
   background-image: url("darkgrey.png");
   box-sizing: border-box;
- 
+  object-fit: center;
+  width: auto;
+  height: auto;
   
   
   
@@ -147,20 +188,25 @@ a {
   border-style: solid;
   text-decoration: none;
    font-size: 18px;
+   width: auto;
+  height: auto;
 }
 
 /* Add a color to the active/current link */
 
-.topnav a.active {
+/* .topnav a.active {
   background-color: rgb(85, 4, 4);
   color: white;
-  border-left: 0px;
+  border-left: 5px;
   border-right: 5px;
-  border-top: 0px;
-  border-bottom: 0px;
+  border-top: 4px;
+  border-bottom: 4px;
   border-color: black;
   border-style: solid;
-}
+  object-fit: center;
+  width: auto;
+  height: auto;
+} */
 
 p em {
   color: black
