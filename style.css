@@ -314,7 +314,7 @@ a:active {
   border: 2px solid rgb(0, 0, 0);
   width: 900px;
   margin-left: 0em;
-  margin-right: 1em;
+  margin-right: 0em;
   padding: 10px 10px 10px 10px;
   box-sizing: border-box;
   background: url(white4.png);
@@ -334,7 +334,9 @@ a:active {
 }
 
 .image-with-caption img {
-  width: 100%;
+  width: auto;
+  
+  
 }
 
 .image-with-caption div {
