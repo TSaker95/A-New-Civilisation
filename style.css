@@ -22,6 +22,9 @@ a {
   text-shadow: 2px 2px 2px  rgba(17, 0, 248, 0.781); /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
 }
 
+.box_textshadow2 {
+  text-shadow: 2px 2px 2px  rgba(255, 1, 1, 0.712); /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+}
 
 #my-site {
   background-color: rgb(243, 6, 6);
@@ -34,8 +37,7 @@ a {
   border-width: 5px;
   border-color: black;
   border-style: solid;
-  background-image: url(".png");
-
+  background-image: url("red1.png");
   background-repeat: repeat;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -51,6 +53,13 @@ a {
   border-width: 5px;
   border-color: black;
   border-style: solid;
+  background-image: url("red1.png");
+
+  background-repeat: repeat;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  
 }
 
 #heading-3 {
@@ -69,6 +78,9 @@ a {
   object-fit: stretch;
   width: auto;
   height: auto;
+  margin: auto;
+  width: 50%;
+  
 }
 
 #heading-4 {
@@ -80,6 +92,11 @@ a {
   border-width: 5px;
   border-color: black;
   border-style: solid;
+  background-image: url("red1.png");
+  background-repeat: repeat;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
 
 #imgs4 {
@@ -140,6 +157,7 @@ a {
   object-fit: stretch;
   width: auto;
   height: auto;
+  
    
 }
 
@@ -221,7 +239,7 @@ p em {
   border-width: 5px;
   border-color: black;
   border-style: solid;
-  margin-bottom: 0%;
+  margin-bottom: auto;
   background-image: url("darkgrey.png");
   display: grid;
   grid-template-columns: [sidebar] 0.5fr
@@ -275,22 +293,34 @@ a:active {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 8%;
+  width: 10%;
   border-top: 0px;
   border-bottom: 0px;
   border-left: 3px;
   border-right: 3px;
   border-color: black;
   border-style: solid;
+  display: block;
+ 
 }
+
+
+
+
+
+
 
 #aside {
   border: 2px solid rgb(0, 0, 0);
   width: 900px;
   margin-left: 0em;
-  margin-right: 0em;
+  margin-right: 1em;
   padding: 10px 10px 10px 10px;
   box-sizing: border-box;
+  background: url(white4.png);
+  background-repeat: no-repeat;
+   background-size: cover; 
+  
 }
 
 #table1 {
@@ -371,13 +401,13 @@ nav .contact {
   } 
 
   /* #headbackground {
-  background-image: url("grey2.png");
+  background-image: url("red1.png");
   background-color: #cccccc;
   background-repeat: repeat;
   background-position: center;  
    background-repeat: no-repeat;  
-   background-size: cover;  */
-  } 
+   background-size: cover;  
+  }  */
 
 
  <style>
