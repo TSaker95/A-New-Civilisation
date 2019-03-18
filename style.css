@@ -44,12 +44,6 @@ a {
   background-size: cover;
 justify-content: center;  
 
-
-
-
-
-
-
 }
 
 #heading-2 {
@@ -62,7 +56,6 @@ justify-content: center;
   border-color: black;
   border-style: solid;
   background-image: url("red1.png");
-
   background-repeat: repeat;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -107,6 +100,8 @@ justify-content: center;
   background-size: cover;
 }
 
+
+
 #imgs4 {
   height: 45%;
   width: 45%;
@@ -131,11 +126,11 @@ justify-content: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 60%;
 }
 
 .border {
-  border-width: 15px;
+  border-width: auto;
   border-color: black;
   border-style: solid;
 }
@@ -319,14 +314,15 @@ a:active {
 
 #aside {
   border: 2px solid rgb(0, 0, 0);
-  width: 900px;
-  margin-left: 0em;
-  margin-right: 0em;
+  width: center;
+  margin-left: 24.5vw;
+  margin-right: 24.5vw;
   padding: 10px 10px 10px 10px;
-  box-sizing: border-box;
+
   background: url(white4.png);
   background-repeat: no-repeat;
    background-size: cover; 
+   
   
 }
 
@@ -419,21 +415,3 @@ nav .contact {
   }  */
 
 
- <style>
-  .parallax {
-    /* The image used */
-    background-image: url("red.png");
-  
-    /* Set a specific height */
-    height: 500px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
- </style>
-  
-  /* <!-- Container element --> */
- 
