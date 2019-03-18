@@ -80,7 +80,8 @@ justify-content: center;
   width: auto;
   height: auto;
   margin: auto;
-  width: 50%;
+  width: 60%;
+  font-size: 2vw;
   
 }
 
@@ -413,4 +414,11 @@ nav .contact {
    background-size: cover;  
   }  */
 
+  /* #gridboi {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;    
+    grid-template-rows: 10px 10px 10px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  } */
 
