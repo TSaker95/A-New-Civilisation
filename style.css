@@ -28,12 +28,12 @@ a {
 
 #my-site {
   background-color: rgb(243, 6, 6);
-  font-size: 800%;
+  font-size: 5vw;
   margin-top: 0%;
   text-align: center;
   color: rgb(0, 0, 0);
   font-variant-caps: all-petite-caps font-family: sans-serif;
-  font-style: bold;
+  font-weight: bold;
   border-width: 5px;
   border-color: black;
   border-style: solid;
@@ -42,6 +42,14 @@ a {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
+justify-content: center;  
+
+
+
+
+
+
+
 }
 
 #heading-2 {
