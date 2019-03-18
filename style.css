@@ -176,7 +176,7 @@ justify-content: center;
   text-align: center;
   padding: 10px 50px 10px 50px;
   text-decoration: none;
-   font-size: 17px;
+   font-size: 1vw;
   background-color: #333;
   border-left: 2px;
   border-right: 2px;
@@ -187,8 +187,7 @@ justify-content: center;
   background-image: url("darkgrey.png");
   box-sizing: border-box;
   object-fit: center;
-  width: auto;
-  height: auto;
+  
   
   
   
